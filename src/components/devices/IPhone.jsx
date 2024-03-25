@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 const IPhone = ({ screenImg, isLoading }) => {
     return (
         <motion.section initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className='h-full w-[40%] !scale-50  deskSm:!scale-[0.75] md:!scale-100'>
-            <div className="outside-border" style={{ background: `url(${!isLoading && screenImg}) center center / contain`, backgroundRepeat: 'no-repeat' }}>
+            <div className="outside-border" style={{ background: `url(${!isLoading && screenImg}) center center / contain no-repeat` }}>
                 {isLoading && <div className="loader">Loading
                     <span></span>
                 </div>}
