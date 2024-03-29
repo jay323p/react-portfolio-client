@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import PurpleGlossyBlurBadge from "../components/badges/PurpleGlossyBlurBadge"
 import ThreeDButton from "../components/buttons/ThreeDButton"
 import IPhone from '../components/devices/IPhone'
-import MacBook from '../components/devices/Macbook'
+import MacBook from '../components/devices/MacBook'
 import { myProjects } from "../data/objects";
 
 const Projects = () => {
